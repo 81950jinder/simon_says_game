@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    margin-top: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.div-container {
+    height: 30rem;
+    width: 30rem;
+    background-color: rgb(231, 119, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.btn {
+    height: 10rem;
+    width: 10rem;
+    background-color: blue;
+    gap: 1rem;
+    border-radius: 20%;
+    margin: 1rem; 
+    padding: auto;
+    border: 10px solid black;
+}
+
+.yellow {
+    background-color: rgb(251, 251, 90);
+}
+.green {
+    background-color: rgb(66, 239, 66);
+}
+.red {
+    background-color: rgb(236, 57, 57);
+}
+.purple {
+    background-color: rgb(156, 49, 156);
+}
+
+.flash {
+    background-color: white;
+}
+
+
+.userFlash  {
+    background-color: green;
+}
